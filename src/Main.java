@@ -10,10 +10,11 @@ import block.Map;
 import player.Player;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("Hello world!");
-
-        Map.GameMap();
+        Player.playerSetting();
+        Player.playerMove();
 
 
     }
