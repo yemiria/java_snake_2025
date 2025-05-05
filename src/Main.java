@@ -3,13 +3,18 @@
  * java小游戏
  * 2025/4/20
  * @author Yemiria
- * @author _
+ * @author APGTC
  */
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+import block.Map;
+import player.Player;
 
+public class Main {
+    public static void main(String[] args)
+    {
+        System.out.println("Hello world!");
+        Player.playerSetting();
+        Player.playerMove();
 
 
     }
